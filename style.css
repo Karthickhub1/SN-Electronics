@@ -1,0 +1,402 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+body{
+    margin: 0;
+        display: grid;
+    background-color:  #B3B2B4;
+}
+
+.header{
+   
+    background-color: #2D4355;
+    padding: 10px;
+    box-shadow: 0px 4px 15px;
+    
+}
+.nav-logo{
+   margin-right: 45%;
+   
+}
+
+
+.nav-link{
+list-style: none;
+
+}
+.nav-link>a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px;
+}
+.nav-link>a:hover{
+    background-color: #6B696F;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+  }
+
+
+.bg-image{
+    position: relative;   
+    
+   background:url(bg4.jpg) no-repeat center;
+   background-size: cover;
+   height: 600px;
+   overflow: hidden;
+   
+
+}
+.bg-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+.bg-text h1{
+    margin: 0;
+    font-size: 40px;
+
+}
+.bg-text h1 span{
+    border: 6px solid white;
+    padding: 3px 10px;
+    display: block;
+}
+.product{
+    margin: 20px;
+    display: block;
+    font-size: 26px;
+}
+.btn{
+    color: #fff;
+    padding: 10px 24px;
+    background: none;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 15px;
+    border:2px solid white;
+}
+.btn:hover{
+    font-weight: 800;
+    background: white;
+    color: black;
+}
+
+.watch-box{
+  display: flex;
+  background: #6B696F;
+ 
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 20px;
+}
+.w-img{
+    display: flex;
+}
+.w-img1{
+    width: 50%;
+    height: 100%;
+ 
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+
+}
+.w-ss{
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.w-ss p{
+    font-size: 20px;
+    padding: 10px;
+    word-spacing: 4px;
+    color: white;
+}
+.gallery{
+    box-shadow: 4px 4px 20px;
+    margin: 40px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #6B696F;
+}
+.gallery h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+  font-weight: bold;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.column{
+    flex: 30%;
+    max-width: 30%;
+    padding:10px;
+   
+}
+.column img{
+    margin-top: 8px;
+    border-radius: 10px;
+    vertical-align: middle;
+    width: 100%;
+    transition: .20s;
+}
+.column img:hover{
+    box-shadow: 4px 4px 5px rgba(0,0, 0,.7);
+}
+
+.bg-image1{
+    position: relative;   
+    
+   background:url(bg6.jpg) no-repeat center;
+   background-size: cover;
+   height: 600px;
+   overflow: hidden;
+   
+
+}
+.bg-text1{
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    padding: 30px;
+    margin: 10px;
+    text-transform: uppercase;
+
+}
+.form-bg h1{
+    padding: 20px;
+}
+.form-bg h3{
+    font-size: 18px;
+}
+
+form{
+    margin-top: 50px;
+}
+.get-value{
+width: 500px;
+background: transparent;
+border: none;
+outline: none;
+border-bottom: 1px solid gray;
+color: #fff;
+font-size: 18px;
+
+}
+input{
+    height: 45px;
+   
+}
+
+    
+form .submit{
+    
+    background:#6B696F;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px
+}
+form .submit:hover{
+    color: black;
+
+}
+
+.footer{
+    background: #2D4355;
+   
+ display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 40px;
+}
+.footer .logo{
+    color: black;
+    border: 4px solid white;
+    padding:15px;
+    border-radius: 50%;
+}
+.foot-right{
+    text-align:start;
+}
+.foot-right i{
+    background: white;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 22px;
+}
+.foot-right img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    background: white;
+    
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    font-size: 15px;
+}
+.foot-right h3{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.foot-right h3:hover{
+    color: white;
+}
+.foot-right p{
+    display: inline-block;
+font-size: 18px;
+padding: 10px;
+padding-bottom: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.foot-left{
+    text-align: center;
+}
+.foot-left img{
+width: 80px;
+height: 80px;
+
+}
+.foot-left p {
+    margin: 0;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  
+}
+
+.foot-right p a{
+    text-decoration: none;
+    color: black;
+   
+}
+.foot-right p a:hover{
+color: white;
+}
+@media screen and (max-width: 768px) {
+    body{
+        margin: 0%;
+        width: auto;
+    }
+    .bg-text{
+        font-weight: 250;
+    }
+    .nav-link>a:hover{
+        padding: 10px;
+        border-radius: 5px;
+    }
+.container{
+    flex-direction: column;
+    
+}
+.nav-logo{
+    margin: 0;
+    
+}
+.logo{
+    width: 80px;
+    height: 100px;
+}
+.nav-link{
+  padding: 10px;
+  justify-content: center;
+  
+    }
+    .watch-box{
+        margin: 20px;
+    }
+    .gallery{
+        margin: 20px;
+    }
+    .w-img{
+        flex-direction: column;
+    }
+    .w-img1{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+    }
+    .w-ss{
+        padding: 15px;
+    }
+    .w-ss p{
+       text-align: justify;
+       word-spacing: 2px;
+       font-size: 16px;
+        
+    }
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+ .get-value{
+     width:250px;
+ }
+ .form-bg h3{
+    font-size: 16px;
+}
+ .footer{
+     flex-direction: column;
+     width: auto;
+     font-size: 14px;
+     text-align: center;
+ }
+
+ .foot-right p{
+     font-size: 17px;
+ }
+ .foot-right{
+     text-align: center;
+ }
+ .foot-left p{
+     font-size: 15px;
+ }
+
+}
+
+    
+
